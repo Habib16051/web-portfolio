@@ -7,8 +7,8 @@ h1{
 font-size : 50px;
 
 }
-.country{
-color: Green;
+.green-highlight{
+color: Orange;
 }
 .half-width{
 width : 40%;
@@ -18,4 +18,62 @@ padding-left: 2%;
 }
 .half-width img{
 width : 100%;
+}
+.top-banner{
+background-image: url("images/top-banner.png");
+background-repeat: no repeat;
+}
+
+section{
+height: 500px;
+padding-bottom: 150px;
+}
+.link-button{
+text-decoration: none;
+background-color: Green;
+padding: 10px 20px;
+border-radius: 5px;
+color:white;
+font-weight;Bold;
+}
+
+.dream-area{
+background-image: url("images/dream-bg.png");
+background-repeat: no-repeat;
+background-position : right;
+}
+.single-experience{
+box-shadow:10px 10px 40px gray;
+border-radius:5px;
+height:65%;
+background-color: white;
+
+
+}
+
+.experience-area{
+
+background-image: url("images/exp-bg.png");
+background-repeat: no-repeat;
+background-position:left;
+
+
+
+}
+#full-stack{
+border-left: 7px solid;
+border-image: linear-gradient(180deg, lightsalmon, tomato);
+border-image-slice:1;
+}
+
+#baby-web{
+border-left: 7px solid;
+border-image: linear-gradient(180deg, blue, cyan);
+border-image-slice:1;
+}
+
+footer p{
+text-align:center;
+color: 	green;
+font-size:20px;
 }
